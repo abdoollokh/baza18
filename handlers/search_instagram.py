@@ -15,8 +15,8 @@ async def search_nstagram(message: types.Message):
     username = username.replace('?utm_medium=copy_link', '')
     try:
         #photo = instagram_parser.get_profile_photo(username)
-        start_date = datetime.date(2020, 1, 1)
-        end_date = datetime.date(2020, 2, 1)
+        start_date = datetime.date(2022, 1, 1)
+        end_date = datetime.date(2022, 9, 1)
         time_between_dates = end_date - start_date
         days_between_dates = time_between_dates.days
         random_number_of_days = random.randrange(days_between_dates)
