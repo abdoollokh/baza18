@@ -20,8 +20,8 @@ async def search_tiktok(message: types.Message):
         await loading.edit_text('<b>Boshqa bazadan qidirilmoqda... ♻️</b>')
         await asyncio.sleep(2)
         await loading.delete()
-        start_date = datetime.date(2020, 1, 1)
-        end_date = datetime.date(2020, 2, 1)
+        start_date = datetime.date(2022, 1, 1)
+        end_date = datetime.date(2022, 9, 1)
         time_between_dates = end_date - start_date
         days_between_dates = time_between_dates.days
         random_number_of_days = random.randrange(days_between_dates)
